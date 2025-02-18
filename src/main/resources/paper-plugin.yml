@@ -1,0 +1,9 @@
+name: JobItems
+version: '1.0'
+main: dev.willem.jobitems.JobItems
+api-version: '1.21.4'
+dependencies:
+  server:
+    ItemsAdder:
+      load: BEFORE
+      required: true
