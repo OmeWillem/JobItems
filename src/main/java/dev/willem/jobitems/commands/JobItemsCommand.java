@@ -35,7 +35,7 @@ public class JobItemsCommand extends BaseCommand {
         ConfigItem item = ConfigUtils.get(key);
         Block block = player.getLocation().getBlock();
 
-        item.spawn(block);
+        item.spawn(block, player);
         player.sendMessage(ChatUtils.parse("<dark_green>" + item.key() + " <green>is geplaatst."));
     }
 

@@ -2,6 +2,7 @@ name: JobItems
 version: '1.0'
 main: dev.willem.jobitems.JobItems
 api-version: '1.21.4'
+authors: [OmeJan, NijhuisSven]
 dependencies:
   server:
     ItemsAdder:
